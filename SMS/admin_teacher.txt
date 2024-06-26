@@ -1,0 +1,20 @@
+Name,Anoosha Khan
+Gender,Female
+CNIC,3520109876543
+Date of Birth,08/05/1999
+Mobile Number,0320123456
+User ID,oop-1
+Degree,Msc in Computer Science
+Campus,Lahore
+Department,SE
+
+Name,Kiran Khurshid
+Gender,Female
+CNIC,3520109876543
+Date of Birth,08/05/1999
+Mobile Number,0320123456
+User ID,ise-1
+Degree,Msc in Software Project Management
+Campus,Lahore
+Department,SE
+

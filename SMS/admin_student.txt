@@ -1,0 +1,61 @@
+Name,Muhammad Ahmad
+Gender,Male
+CNIC,3520198765432
+Date of Birth,08/03/2004
+Mobile Number,3201234561
+Roll Number,23L-3059
+Section,SE
+Campus,LAHORE
+Batch,2023
+
+Name,Muhammad Arslaan
+Gender,Male
+CNIC,3520198765432
+Date of Birth,08/03/2004
+Mobile Number,3201234561
+Roll Number,23L-3025
+Section,SE
+Campus,LAHORE
+Batch,2023
+
+Name,Umer Naseer
+Gender,Male
+CNIC,3520198765432
+Date of Birth,08/03/2004
+Mobile Number,3201234561
+Roll Number,23L-3040
+Section,SE
+Campus,LAHORE
+Batch,2023
+
+Name,Abu Bakar
+Gender,Male
+CNIC,3520198765432
+Date of Birth,08/03/2004
+Mobile Number,3201234561
+Roll Number,23L-3062
+Section,SE
+Campus,LAHORE
+Batch,2023
+
+Name,Anus Farooq1
+Gender,Male
+CNIC,3520198765432
+Date of Birth,08/03/2004
+Mobile Number,3201234561
+Roll Number,21L-3011
+Section,SE
+Campus,LAHORE
+Batch,2023
+
+
+Name,Zain
+Gender,Male
+CNIC,3520198765342
+Date of Birth,14/07/2005
+Mobile Number,1234567890
+Roll Number,23L-3091
+Section,SE
+Campus,LAHORE
+Batch,2023
+

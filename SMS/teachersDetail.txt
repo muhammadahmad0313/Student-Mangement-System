@@ -1,0 +1,2 @@
+oop-1,Anoosha Khan,Female,3520109876543,0320123456,Msc in Computer Science,Lahore,SE,08/05/1999
+ise-1,Kiran Khurshid,Female,3520109876543,0320123456,Msc in Software Project Management,Lahore,SE,08/05/1999

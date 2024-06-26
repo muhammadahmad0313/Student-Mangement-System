@@ -1,0 +1,237 @@
+  SMS.Attendance_Student.resources - Embedded, ContainedInManifestFile, 
+  SMS.Attendance_Studentt.resources - Embedded, ContainedInManifestFile, 
+  SMS.Edit_Student.resources - Embedded, ContainedInManifestFile, 
+  SMS.Edit_Teacher.resources - Embedded, ContainedInManifestFile, 
+  SMS.FeaturesAdmin.resources - Embedded, ContainedInManifestFile, 
+  SMS.Info_Student.resources - Embedded, ContainedInManifestFile, 
+  SMS.Info_Teacher.resources - Embedded, ContainedInManifestFile, 
+  SMS.Login_Admin.resources - Embedded, ContainedInManifestFile, 
+  SMS.Login_Student.resources - Embedded, ContainedInManifestFile, 
+  SMS.Login_Teacher.resources - Embedded, ContainedInManifestFile, 
+  SMS.Remove_Student.resources - Embedded, ContainedInManifestFile, 
+  SMS.Search_Student.resources - Embedded, ContainedInManifestFile, 
+  SMS.Student_Home.resources - Embedded, ContainedInManifestFile, 
+  SMS.Teacher_Attendance.resources - Embedded, ContainedInManifestFile, 
+  SMS.Teacher_Home.resources - Embedded, ContainedInManifestFile, 
+  SMS.Teacher_Marks.resources - Embedded, ContainedInManifestFile, 
+  SMS.Teacher_Marks2.resources - Embedded, ContainedInManifestFile, 
+  SMS.Transcript_User.resources - Embedded, ContainedInManifestFile, 
+  SMS.User_Admin.resources - Embedded, ContainedInManifestFile, 
+  SMS.User_Student_Admin.resources - Embedded, ContainedInManifestFile, 
+  SMS.User_Teacher_Admin.resources - Embedded, ContainedInManifestFile, 
+  SMS.WHO.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SMS, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SMS.AddAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AddStudent(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    addTeacher(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+Class SMS.Attendance_Studentt: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String line : Public
+    System.String Subject : Public
+    System.String rollNo : Public
+    System.String status : Public
+    Int32 presentCount : Public
+    Int32 absentCount : Public
+    Int32 totalCount : Public
+  Methods:
+    ReadSubjects(String&, String): PrivateScope, Public, HideBySig
+    FillRollNumberTextBox(TextBox): PrivateScope, Public, HideBySig
+    ReadAttendanceData(String): PrivateScope, Public, HideBySig
+Class SMS.Attendance_Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WriteToFile(String): PrivateScope, Public, HideBySig
+Class SMS.Edit_Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetRollNo(String): PrivateScope, Public, HideBySig
+    ReturnRollNo(): PrivateScope, Public, HideBySig
+    RemoveStudentFromFileStudents(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveStudentFromFileStudent(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveLineFromFile(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveTheStudent(String): PrivateScope, Public, HideBySig
+    GetRollNumber(String&): PrivateScope, Public, HideBySig
+    Counter_Increament(): PrivateScope, Public, HideBySig
+    Counter_Return(): PrivateScope, Public, HideBySig
+    FillStudentDetails(String, String&, String&, String&, String&, String&, String&, String&, String&): PrivateScope, Public, HideBySig
+    RemoveThatStudent(): PrivateScope, Public, HideBySig
+Class SMS.Edit_Teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String userID : Public
+    System.String name : Public
+    System.String gender : Public
+    System.String cnic : Public
+    System.String dob : Public
+    System.String mobileNumber : Public
+    System.String degree : Public
+    System.String campus : Public
+    System.String depart : Public
+    Int32 Counter : Public
+    Boolean found : Public
+  Methods:
+    SetRollNo(String): PrivateScope, Public, HideBySig
+    ReturnRollNo(): PrivateScope, Public, HideBySig
+    RemoveLineFromFile(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveTheTeacher(String): PrivateScope, Public, HideBySig
+    GetRollNumber(String&): PrivateScope, Public, HideBySig
+    Counter_Increament(): PrivateScope, Public, HideBySig
+    Counter_Return(): PrivateScope, Public, HideBySig
+    FillTeacherDetails(String, String&, String&, String&, String&, String&, String&, String&, String&): PrivateScope, Public, HideBySig
+    RemoveThatTeacher(): PrivateScope, Public, HideBySig
+Class SMS.User_Student_Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.User_Teacher_Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.Search_Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetTitle(String&): PrivateScope, Public, HideBySig
+    WriteToFileStudent(String): PrivateScope, Public, HideBySig
+    WriteToFileTeacher(String): PrivateScope, Public, HideBySig
+    SetTitle(String): PrivateScope, Public, HideBySig
+    ReturnTitle(): PrivateScope, Public, HideBySig
+Class SMS.Remove_Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetRollNo(String): PrivateScope, Public, HideBySig
+    ReturnRollNo(): PrivateScope, Public, HideBySig
+    RemoveStudentFromFileStudents(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveStudentFromFileStudent(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveLineFromFileS(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveTheStudent(String): PrivateScope, Public, HideBySig
+    GetTitle(String&): PrivateScope, Public, HideBySig
+    WriteToFileStudent(String): PrivateScope, Public, HideBySig
+    WriteToFileTeacher(String): PrivateScope, Public, HideBySig
+    SetTitle(String): PrivateScope, Public, HideBySig
+    ReturnTitle(): PrivateScope, Public, HideBySig
+    Counter_Increament(): PrivateScope, Public, HideBySig
+    Counter_Return(): PrivateScope, Public, HideBySig
+    RemoveThatStudent(): PrivateScope, Public, HideBySig
+    FillStudentDetails(String&, String&, String&, String&, String&, String&, String&, String&, String&): PrivateScope, Public, HideBySig
+    GetUserID(String&): PrivateScope, Public, HideBySig
+    SetUserID(String): PrivateScope, Public, HideBySig
+    ReturnUserID(): PrivateScope, Public, HideBySig
+    FillTeacherDetails(String&, String&, String&, String&, String&, String&, String&, String&, String&): PrivateScope, Public, HideBySig
+    RemoveLineFromFile(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RemoveTheTeacher(String): PrivateScope, Public, HideBySig
+    RemoveThatTeacher(): PrivateScope, Public, HideBySig
+Class SMS.User_Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetTitle(String&): PrivateScope, Public, HideBySig
+    WriteToFile(String): PrivateScope, Public, HideBySig
+    SetTitle(String): PrivateScope, Public, HideBySig
+    ReturnTitle(): PrivateScope, Public, HideBySig
+Class SMS.FeaturesAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WriteToFile(String): PrivateScope, Public, HideBySig
+Class SMS.Info_Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.Info_Teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.Login_Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.Transcript: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IncrementStudents(): PrivateScope, Public, HideBySig
+    GetStudents(): PrivateScope, Public, HideBySig
+    ReadStudents(): PrivateScope, Public, HideBySig
+    SetRollNumber(): PrivateScope, Public, HideBySig
+    ReadQuizMarks(): PrivateScope, Public, HideBySig
+    ReadAssignmentMarks(): PrivateScope, Public, HideBySig
+    ReadMidtermMarks(): PrivateScope, Public, HideBySig
+    ReadFinalMarks(): PrivateScope, Public, HideBySig
+    CalculateGrades(): PrivateScope, Public, HideBySig
+    GetGrade(Double): PrivateScope, Public, HideBySig
+    getOOPGrade(): PrivateScope, Public, HideBySig
+    getISEGrade(): PrivateScope, Public, HideBySig
+    getDSGrade(): PrivateScope, Public, HideBySig
+    getMVCGrade(): PrivateScope, Public, HideBySig
+    getDLDGrade(): PrivateScope, Public, HideBySig
+    getGPA(): PrivateScope, Public, HideBySig
+Class SMS.Transcript_User: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String rollNumber : Public
+  Methods:
+    ReadStudentInfo(String&, String&, String&, String&, String&): PrivateScope, Public, HideBySig
+Class SMS.Student_Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.Login_Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WriteToFile(String): PrivateScope, Public, HideBySig
+Class SMS.Teacher_Marks2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ProcessInput(TextBox): PrivateScope, Public, HideBySig
+    ReadStudentInfo(String&, String&, Int32): PrivateScope, Public, HideBySig
+    ReadStudents(): PrivateScope, Public, HideBySig
+    IncrementStudents(): PrivateScope, Public, HideBySig
+    GetStudents(): PrivateScope, Public, HideBySig
+    GetTitle(String&): PrivateScope, Public, HideBySig
+    ReturnTitle(): PrivateScope, Public, HideBySig
+    SetTitle(String): PrivateScope, Public, HideBySig
+    FillStudentData(Int32): PrivateScope, Public, HideBySig
+Class SMS.Teacher_Marks: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WriteToFile(String): PrivateScope, Public, HideBySig
+Class SMS.Teacher_Attendance: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    storeAttendance(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ProcessInput(TextBox): PrivateScope, Public, HideBySig
+    ReadStudentInfo(String&, String&, Int32): PrivateScope, Public, HideBySig
+    ReadStudents(): PrivateScope, Public, HideBySig
+    IncrementStudents(): PrivateScope, Public, HideBySig
+    GetStudents(): PrivateScope, Public, HideBySig
+    FillStudentData(Int32): PrivateScope, Public, HideBySig
+Class SMS.Teacher_Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.Login_Teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SMS.WHO: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
